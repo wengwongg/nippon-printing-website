@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nippon Printing</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/nippongraphic.png">
+  </head>
+  <body>
+    <header>
+      <img
+          class="nav__logo"
+          src="images/nipponhorizontalwhite.png"
+          alt="Nippon printing logo"
+        />
+      <nav>
+        <input type="checkbox" id="nav__check" hidden>
+
+        <ul class="nav__links">
+          <li class="nav__link">
+            <a class="nav__url" href="index.html">Home</a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__url" href="about.html">About Us</a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__url" href="work.html">Our Work</a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__url" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <label for="nav__check" class="hamburger"">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="about reveal--on--load">
+        <div class="about__text">
+          <h3><span class="accent--red">Who</span> are we?</h3>
+          <p>Nippon Printing Sdn. Bhd. is a well-established Malaysian firm that has specialised in packaging, design and printing for over 30+ years and counting.</p>
+
+          <p>We design and produce anything from cake boxes to plastic and paper bags to stickers. Basically anything that needs designing and printing - so even things like flyers if you need! With some discussions over your unique needs, we can handle everything from design to delivery, so you can focus more on your amazing product.</p>
+
+          <p>We prioritise quality and always ensure that we deliver the best end product to your doorstep. Customer satisfaction is of utmost importance to us, and we always strive to supply packaging that our customers can proudly present in their storefront. </p>
+        </div>
+        <img src="images/who.jpg" alt="Image of our team">
+      </div>
+    </main>
+
+    <footer>
+      <img
+        class="footer__logo"
+        src="images/nipponprintingtextwhite.png"
+        alt="Nippon printing logo in white"
+      />
+      <div class="footer__nav">
+        <ul class="footer__links">
+          <li class="footer__link">
+            <a class="footer__url" href="index.html">Home</a>
+          </li>
+          <li class="footer__link">
+            <a class="footer__url" href="about.html">About Us</a>
+          </li>
+          <li class="footer__link">
+            <a class="footer__url" href="work.html">Our Work</a>
+          </li>
+          <li class="footer__link">
+            <a class="footer__url" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <p>©2023 Nippon Printing <br />Sdn Bhd. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nippon Printing</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/work.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/nippongraphic.png">
+  </head>
+  <body>
+    <header>
+      <img
+          class="nav__logo"
+          src="images/nipponhorizontalwhite.png"
+          alt="Nippon printing logo"
+        />
+      <nav>
+        <input type="checkbox" id="nav__check" hidden>
+
+        <ul class="nav__links">
+          <li class="nav__link">
+            <a class="nav__url" href="index.html">Home</a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__url" href="about.html">About Us</a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__url" href="work.html">Our Work</a>
+          </li>
+          <li class="nav__link">
+            <a class="nav__url" href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <label for="nav__check" class="hamburger"">
+          <div></div>
+          <div></div>
+          <div></div>
+        </label>
+      </nav>
+    </header>
+  
+    <main>
+      <div class="work">
+        <div class="work__arrows">
+          <svg
+              class="arrow arrow--left"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 64 64"
+            >
+            <path
+              fill="white"
+              d="M32 2C15.432 2 2 15.432 2 32c0 16.568 13.432 30 30 30s30-13.432 30-30C62 15.432 48.568 2 32 2zm17 35.428H30.307V48L15 32l15.307-16v11.143H49v10.285z"
+            />
+          </svg>
+
+          <svg
+              class="arrow arrow--right"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 64 64"
+            >
+            <path
+              fill="white"
+              d="M32 2C15.432 2 2 15.432 2 32c0 16.568 13.432 30 30 30s30-13.432 30-30C62 15.432 48.568 2 32 2zm1.693 46V37.428H15V27.143h18.693V16L49 32L33.693 48z"
+            />
+          </svg>
+        </div>
+        <div class="work__circles">
+          <div class="work__circle work__circle--1 current"></div>
+          <div class="work__circle work__circle--2"></div>
+          <div class="work__circle work__circle--3"></div>
+          <div class="work__circle work__circle--4"></div>
+          <div class="work__circle work__circle--5"></div>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <img
+        class="footer__logo"
+        src="images/nipponprintingtextwhite.png"
+        alt="Nippon printing logo in white"
+      />
+      <div class="footer__nav">
+        <ul class="footer__links">
+          <li class="footer__link">
+            <a class="footer__url" href="index.html">Home</a>
+          </li>
+          <li class="footer__link">
+            <a class="footer__url" href="about.html">About Us</a>
+          </li>
+          <li class="footer__link">
+            <a class="footer__url" href="work.html">Our Work</a>
+          </li>
+          <li class="footer__link">
+            <a class="footer__url" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <p>©2023 Nippon Printing <br />Sdn Bhd. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/work.js"></script>
+  </body>
+</html>
