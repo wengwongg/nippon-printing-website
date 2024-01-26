@@ -11,10 +11,18 @@
   width: 50%;
 }
 
+.about__text {
+  width: 50%;
+}
+
 @media (max-width: 1100px) {
   .about {
     gap: 1rem;
     flex-direction: column;
+  }
+
+  .about__text {
+    width: 100%;
   }
 
   .about > img {
