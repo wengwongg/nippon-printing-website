@@ -16,8 +16,8 @@ const testimonial2 = {
 
 const testimonial3 = {
   pfp: "images/portrait3.jpg",
-  name: "",
-  title: "Owner of Kow Hong Sdn. Bhd.",
+  name: "Jocelyn",
+  title: "Manager of Kow Hong Sdn. Bhd.",
   quote:
     "Nippon Printing's outstanding service goes above and beyond, consistently meeting customer demands with precision and excellence. Their commitment to customer satisfaction truly sets them apart in delivering top-notch printing services.",
 };
