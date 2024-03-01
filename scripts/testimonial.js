@@ -1,25 +1,25 @@
 const testimonial1 = {
   pfp: "images/portrait1.jpg",
-  name: "Ms Ooi",
-  title: "Owner of Soon Seng Heang",
+  name: "Mr. Sky Sitt",
+  title: "Owner of Guan Heong Biscuit Shop",
   quote:
-    "Choosing XYZ Packaging Solutions was one of the best decisions for our business. Their team's expertise and creativity led to packaging designs that surpassed our expectations. The quality of their work and on-time delivery impressed us, and their customer service was exceptional. Thanks to their innovative packaging, our products stand out on the shelves, and we've received numerous compliments from our customers. We highly recommend XYZ Packaging Solutions for their professionalism and outstanding packaging solutions.",
+    "I am incredibly satisfied with the services provided by Nippon Printing. Our long-term business relationship spanning over 10 years speaks volumes about the trust and reliability they consistently demonstrate. From the moment I inquired about their box printing to the post-delivery support, the experience has been outstanding. The design and functionality of the box are top-notch, delivering exceptional results. Nippon Printing goes above and beyond, providing a seamless experience from order to delivery. The post-delivery service reflects their commitment to customer satisfaction, ensuring that I felt supported every step of the way. I wholeheartedly recommend Nippon Printing for anyone in search of high-quality box printers and unparalleled customer service. They have earned my trust and loyalty.",
 };
 
 const testimonial2 = {
   pfp: "images/portrait2.jpg",
-  name: "Mr Bob",
-  title: "Owner of Apple",
+  name: "Eng",
+  title: "Owner of Sin Teo Hiang Sdn. Bhd.",
   quote:
-    "I am thrilled to share my experience with XYZ Packaging Solutions. Their attention to detail and commitment to excellence are truly commendable. The packaging they designed for our products not only enhanced their visual appeal but also ensured their safety during shipping. The team's responsiveness and willingness to customize solutions to our specific needs made the entire process smooth and enjoyable. Thanks to XYZ Packaging Solutions, our brand's packaging has become a point of admiration among our customers, setting us apart in a competitive market.",
+    "I highly recommend Nippon Printing. Their product quality and customer service are  consistently outstanding and exceeding my expectations. I was completely impressed with their professionalism and creativity of their products and they've helped us in boosting our business. Their staff, especially their lady boss, are friendly, knowledgeable, trustworthy and really listen to what I wanted and help us in packaging solution!",
 };
 
 const testimonial3 = {
   pfp: "images/portrait3.jpg",
-  name: "Mr Wong",
-  title: "Owner of Manchester City",
+  name: "",
+  title: "Owner of Kow Hong Sdn. Bhd.",
   quote:
-    "I couldn't be happier with the packaging services provided by XYZ Packaging Solutions. From the initial consultation to the final product, their team demonstrated professionalism and creativity. Our products now have packaging that not only showcases their features but also aligns perfectly with our brand identity. The positive feedback from our customers speaks volumes about the impact of their work. XYZ Packaging Solutions truly understands the art and science of packaging, and I wholeheartedly recommend their services to anyone seeking packaging solutions that make a difference.",
+    "Nippon Printing's outstanding service goes above and beyond, consistently meeting customer demands with precision and excellence. Their commitment to customer satisfaction truly sets them apart in delivering top-notch printing services.",
 };
 
 const testimonials = [testimonial1, testimonial2, testimonial3];
