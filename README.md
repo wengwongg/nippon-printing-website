@@ -10,4 +10,4 @@ This is a personal project where I collaborated with a local business owner of a
 
 ## View the website
 
-I have deployed the website and the final product can be found <a target="_blank" href="www.nipponprinting.com">here</a>.
+I have deployed the website and the final product can be found <a target="_blank" href="https://www.nipponprinting.com">here</a>.
