@@ -1,6 +1,6 @@
 const testimonial1 = {
   pfp: "images/portrait1.jpg",
-  name: "Mr. Sky Sitt",
+  name: "Ms. Sky Sitt",
   title: "Owner of Guan Heong Biscuit Shop",
   quote:
     "I am incredibly satisfied with the services provided by Nippon Printing. Our long-term business relationship spanning over 10 years speaks volumes about the trust and reliability they consistently demonstrate. From the moment I inquired about their box printing to the post-delivery support, the experience has been outstanding. The design and functionality of the box are top-notch, delivering exceptional results. Nippon Printing goes above and beyond, providing a seamless experience from order to delivery. The post-delivery service reflects their commitment to customer satisfaction, ensuring that I felt supported every step of the way. I wholeheartedly recommend Nippon Printing for anyone in search of high-quality box printers and unparalleled customer service. They have earned my trust and loyalty.",
